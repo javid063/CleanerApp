@@ -7,22 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A81DE11E2C92129500AF8ECD /* Cleaner_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81DE11D2C92129500AF8ECD /* Cleaner_AppApp.swift */; };
+		A81DE11E2C92129500AF8ECD /* Cleaner_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81DE11D2C92129500AF8ECD /* Cleaner_App.swift */; };
 		A81DE1202C92129500AF8ECD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81DE11F2C92129500AF8ECD /* ContentView.swift */; };
 		A81DE1222C92129600AF8ECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A81DE1212C92129600AF8ECD /* Assets.xcassets */; };
 		A81DE1252C92129600AF8ECD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A81DE1242C92129600AF8ECD /* Preview Assets.xcassets */; };
-		A81DE1272C92129600AF8ECD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81DE1262C92129600AF8ECD /* Persistence.swift */; };
-		A81DE12A2C92129600AF8ECD /* Cleaner_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A81DE1282C92129600AF8ECD /* Cleaner_App.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A81DE11A2C92129500AF8ECD /* Cleaner App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cleaner App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A81DE11D2C92129500AF8ECD /* Cleaner_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cleaner_AppApp.swift; sourceTree = "<group>"; };
+		A81DE11D2C92129500AF8ECD /* Cleaner_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cleaner_App.swift; sourceTree = "<group>"; };
 		A81DE11F2C92129500AF8ECD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A81DE1212C92129600AF8ECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A81DE1242C92129600AF8ECD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A81DE1262C92129600AF8ECD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		A81DE1292C92129600AF8ECD /* Cleaner_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cleaner_App.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +51,7 @@
 		A81DE11C2C92129500AF8ECD /* Cleaner App */ = {
 			isa = PBXGroup;
 			children = (
-				A81DE11D2C92129500AF8ECD /* Cleaner_AppApp.swift */,
-				A81DE11F2C92129500AF8ECD /* ContentView.swift */,
-				A81DE1212C92129600AF8ECD /* Assets.xcassets */,
-				A81DE1262C92129600AF8ECD /* Persistence.swift */,
-				A81DE1282C92129600AF8ECD /* Cleaner_App.xcdatamodeld */,
+				A83E82392C92179600733876 /* Core */,
 				A81DE1232C92129600AF8ECD /* Preview Content */,
 			);
 			path = "Cleaner App";
@@ -71,6 +63,16 @@
 				A81DE1242C92129600AF8ECD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A83E82392C92179600733876 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A81DE11D2C92129500AF8ECD /* Cleaner_App.swift */,
+				A81DE11F2C92129500AF8ECD /* ContentView.swift */,
+				A81DE1212C92129600AF8ECD /* Assets.xcassets */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A81DE1272C92129600AF8ECD /* Persistence.swift in Sources */,
 				A81DE1202C92129500AF8ECD /* ContentView.swift in Sources */,
-				A81DE12A2C92129600AF8ECD /* Cleaner_App.xcdatamodeld in Sources */,
-				A81DE11E2C92129500AF8ECD /* Cleaner_AppApp.swift in Sources */,
+				A81DE11E2C92129500AF8ECD /* Cleaner_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +283,13 @@
 				DEVELOPMENT_TEAM = 546KM6S3B9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftClean;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,9 +297,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eagletech.Cleaner-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,11 +318,13 @@
 				DEVELOPMENT_TEAM = 546KM6S3B9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftClean;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,9 +332,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eagletech.Cleaner-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -352,19 +364,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A81DE1282C92129600AF8ECD /* Cleaner_App.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A81DE1292C92129600AF8ECD /* Cleaner_App.xcdatamodel */,
-			);
-			currentVersion = A81DE1292C92129600AF8ECD /* Cleaner_App.xcdatamodel */;
-			path = Cleaner_App.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = A81DE1122C92129500AF8ECD /* Project object */;
 }

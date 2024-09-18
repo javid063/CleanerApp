@@ -22,7 +22,7 @@ struct SCButton: View {
     var textFont: Font
     var buttonHeight: CGFloat
     var iconSize: SCIconSize
-    var backgroundColor: Color
+    var backgroundColor: LinearGradient
     
     // - Private
     private let shadowRadius: CGFloat = 3
@@ -30,10 +30,10 @@ struct SCButton: View {
     init(
         buttonType: SCButtonType,
         cornerStyle: SCCornerStyle = .rounded(),
-        textFont: Font = .system(size: 16, weight: .semibold),
+        textFont: Font = .system(size: 20, weight: .semibold),
         buttonHeight: CGFloat = .buttonHeight,
         iconSize: SCIconSize = .regular,
-        backgroundColor: Color = .buttonPrimary,
+        backgroundColor: LinearGradient = .init(colors: [.buttonPrimary, .blue], startPoint: .bottom, endPoint: .top),
         completion: @escaping () -> Void
     ) {
         
@@ -80,7 +80,7 @@ struct SCButton: View {
                 .padding()
                 .background(
                     SCRectangle()
-                        .fill(.backgroundPrimary)
+                        .fill(.backgroundSecondary)
                         .shadow(radius: shadowRadius)
                 )
         }

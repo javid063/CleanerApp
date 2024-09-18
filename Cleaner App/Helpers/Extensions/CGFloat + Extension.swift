@@ -11,6 +11,8 @@ extension CGFloat {
     
     // MARK: - Constants
     
-    static let buttonHeight: CGFloat = 30
+    static let buttonHeight: CGFloat = 50
     static let cornerRadius: CGFloat = 10
+    static let shadowRadius: CGFloat = 3
+    
 }

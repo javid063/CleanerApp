@@ -17,6 +17,18 @@
 		A83E824F2C92B29A00733876 /* CGFloat + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E824E2C92B29A00733876 /* CGFloat + Extension.swift */; };
 		A83E82522C92B44F00733876 /* Frame + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E82512C92B44F00733876 /* Frame + Extension.swift */; };
 		A83E82542C92B48300733876 /* SCIconSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E82532C92B48300733876 /* SCIconSize.swift */; };
+		A83E825E2C92C78200733876 /* SCHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E825D2C92C78200733876 /* SCHomeViewController.swift */; };
+		A83E82602C92C7A300733876 /* SCHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E825F2C92C7A300733876 /* SCHomeViewModel.swift */; };
+		A83E82622C92D2B500733876 /* SCPhoneInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E82612C92D2B500733876 /* SCPhoneInfoView.swift */; };
+		A83E82642C936E6300733876 /* SCStorageUsageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E82632C936E6300733876 /* SCStorageUsageView.swift */; };
+		A83E82662C986E8500733876 /* SCInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E82652C986E8500733876 /* SCInfoView.swift */; };
+		A83E82682C98806100733876 /* SCDuplicatePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E82672C98806100733876 /* SCDuplicatePhoto.swift */; };
+		A83E826A2C98807D00733876 /* SCDuplicatePhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E82692C98807D00733876 /* SCDuplicatePhotosView.swift */; };
+		A83E826C2C98D6E500733876 /* SCPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E826B2C98D6E500733876 /* SCPhoto.swift */; };
+		A83E826E2C98D79B00733876 /* Photos + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E826D2C98D79B00733876 /* Photos + Extension.swift */; };
+		A83E82702C98DA8F00733876 /* SCDetailedDuplicatePhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E826F2C98DA8F00733876 /* SCDetailedDuplicatePhotosView.swift */; };
+		A83E82722C9961F100733876 /* SCDetailedDuplicatePhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E82712C9961F100733876 /* SCDetailedDuplicatePhotosViewModel.swift */; };
+		A84C62412C9A906B00AE40AB /* SCDuplicatedPhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84C62402C9A906B00AE40AB /* SCDuplicatedPhotosViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +43,18 @@
 		A83E824E2C92B29A00733876 /* CGFloat + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat + Extension.swift"; sourceTree = "<group>"; };
 		A83E82512C92B44F00733876 /* Frame + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Frame + Extension.swift"; sourceTree = "<group>"; };
 		A83E82532C92B48300733876 /* SCIconSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCIconSize.swift; sourceTree = "<group>"; };
+		A83E825D2C92C78200733876 /* SCHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCHomeViewController.swift; sourceTree = "<group>"; };
+		A83E825F2C92C7A300733876 /* SCHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCHomeViewModel.swift; sourceTree = "<group>"; };
+		A83E82612C92D2B500733876 /* SCPhoneInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCPhoneInfoView.swift; sourceTree = "<group>"; };
+		A83E82632C936E6300733876 /* SCStorageUsageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCStorageUsageView.swift; sourceTree = "<group>"; };
+		A83E82652C986E8500733876 /* SCInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCInfoView.swift; sourceTree = "<group>"; };
+		A83E82672C98806100733876 /* SCDuplicatePhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDuplicatePhoto.swift; sourceTree = "<group>"; };
+		A83E82692C98807D00733876 /* SCDuplicatePhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDuplicatePhotosView.swift; sourceTree = "<group>"; };
+		A83E826B2C98D6E500733876 /* SCPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCPhoto.swift; sourceTree = "<group>"; };
+		A83E826D2C98D79B00733876 /* Photos + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photos + Extension.swift"; sourceTree = "<group>"; };
+		A83E826F2C98DA8F00733876 /* SCDetailedDuplicatePhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDetailedDuplicatePhotosView.swift; sourceTree = "<group>"; };
+		A83E82712C9961F100733876 /* SCDetailedDuplicatePhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDetailedDuplicatePhotosViewModel.swift; sourceTree = "<group>"; };
+		A84C62402C9A906B00AE40AB /* SCDuplicatedPhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDuplicatedPhotosViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +133,7 @@
 		A83E82412C92AEF000733876 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				A83E82582C92C72C00733876 /* Home */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -153,8 +178,59 @@
 			isa = PBXGroup;
 			children = (
 				A83E82512C92B44F00733876 /* Frame + Extension.swift */,
+				A83E826D2C98D79B00733876 /* Photos + Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A83E82582C92C72C00733876 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A83E825B2C92C73C00733876 /* ViewModels */,
+				A83E825A2C92C73900733876 /* Models */,
+				A83E82592C92C72F00733876 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A83E82592C92C72F00733876 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A83E825C2C92C74000733876 /* Components */,
+				A83E825D2C92C78200733876 /* SCHomeViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A83E825A2C92C73900733876 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A83E82672C98806100733876 /* SCDuplicatePhoto.swift */,
+				A83E826B2C98D6E500733876 /* SCPhoto.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A83E825B2C92C73C00733876 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A83E825F2C92C7A300733876 /* SCHomeViewModel.swift */,
+				A83E82712C9961F100733876 /* SCDetailedDuplicatePhotosViewModel.swift */,
+				A84C62402C9A906B00AE40AB /* SCDuplicatedPhotosViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A83E825C2C92C74000733876 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A83E82612C92D2B500733876 /* SCPhoneInfoView.swift */,
+				A83E82632C936E6300733876 /* SCStorageUsageView.swift */,
+				A83E82652C986E8500733876 /* SCInfoView.swift */,
+				A83E82692C98807D00733876 /* SCDuplicatePhotosView.swift */,
+				A83E826F2C98DA8F00733876 /* SCDetailedDuplicatePhotosView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,13 +303,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A83E826E2C98D79B00733876 /* Photos + Extension.swift in Sources */,
+				A83E826A2C98807D00733876 /* SCDuplicatePhotosView.swift in Sources */,
+				A83E82682C98806100733876 /* SCDuplicatePhoto.swift in Sources */,
 				A81DE1202C92129500AF8ECD /* ContentView.swift in Sources */,
 				A81DE11E2C92129500AF8ECD /* Cleaner_App.swift in Sources */,
 				A83E82492C92B07A00733876 /* SCButton.swift in Sources */,
+				A83E82662C986E8500733876 /* SCInfoView.swift in Sources */,
+				A83E82702C98DA8F00733876 /* SCDetailedDuplicatePhotosView.swift in Sources */,
 				A83E824C2C92B0A400733876 /* SCCornerStyle.swift in Sources */,
 				A83E824F2C92B29A00733876 /* CGFloat + Extension.swift in Sources */,
+				A84C62412C9A906B00AE40AB /* SCDuplicatedPhotosViewModel.swift in Sources */,
+				A83E826C2C98D6E500733876 /* SCPhoto.swift in Sources */,
+				A83E825E2C92C78200733876 /* SCHomeViewController.swift in Sources */,
+				A83E82622C92D2B500733876 /* SCPhoneInfoView.swift in Sources */,
 				A83E82542C92B48300733876 /* SCIconSize.swift in Sources */,
+				A83E82602C92C7A300733876 /* SCHomeViewModel.swift in Sources */,
+				A83E82722C9961F100733876 /* SCDetailedDuplicatePhotosViewModel.swift in Sources */,
 				A83E82472C92AF7300733876 /* SCRectangle.swift in Sources */,
+				A83E82642C936E6300733876 /* SCStorageUsageView.swift in Sources */,
 				A83E82522C92B44F00733876 /* Frame + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,6 +460,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = SwiftClean;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need your photo library to check for duplicated photos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -408,6 +497,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = SwiftClean;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need your photo library to check for duplicated photos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
